@@ -28,3 +28,31 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/*Estilo de las tablas comparativas de los Gestores.*/
+.tabla-comparativa {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.tabla-comparativa table {
+  font-size: 1.1rem;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-comparativa th,
+.tabla-comparativa td {
+  border: 1px solid #ddd;
+  padding: 16px 20px;
+  text-align: left;
+}
+
+.tabla-comparativa th {
+  background-color: #2E8B57;
+  color: white;
+  font-weight: bold;
+}

@@ -2,46 +2,60 @@
 sidebar_position: 1
 ---
 
-# 📖 Tutorial Intro
+# 🔐  Gestor de Contraseñas
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Descubramos que es un **Gestor de contraseñas en 5 minutos**.
 
-## Getting Started
+## 🗝️ ¿Qué es un gestor de contraseñas?
 
-Get started by **creating a new site**.
+Un gestor de contraseñas es una herramienta que permite guardar, generar y gestionar contraseñas seguras de forma centralizada. Su objetivo principal es ayudar a los usuarios a mantener sus cuentas protegidas, evitando el uso de contraseñas débiles o repetidas.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Funcionalidades
+- 👥 **Compartir contraseñas de forma segura**
+  - Puedes compartir acceso a cuentas con otras personas (por ejemplo, compañeros de trabajo o familia) sin mostrar la contraseña en texto plano.
 
-### What you'll need
+- ✅ **Almacenamiento seguro de contraseñas**
+  - Guarda tus contraseñas cifradas en una bóveda protegida con una contraseña maestra.
+  - Solo necesitas recordar una sola contraseña para acceder a todas las demás.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- 🔐 **Generador de contraseñas seguras**
+  - Crea contraseñas aleatorias, largas y complejas que son difíciles de adivinar.
+  - Puedes personalizar el largo, uso de mayúsculas, símbolos y números.
 
-## Generate a new site
+- 💾 **Autocompletado en sitios web y apps**
+  - Detecta formularios de inicio de sesión y rellena automáticamente usuario y contraseña.
 
-Generate a new Docusaurus site using the **classic template**.
+- 🚨 **Alertas de seguridad (en algunos gestores)**
+  - Notifica si alguna de tus contraseñas ha sido filtrada en internet (filtraciones de datos).
+  - Te sugiere cambiar contraseñas comprometidas.
 
-The classic template will automatically be added to your project after you run the command:
+- 🧾 **Auditoría de contraseñas**
+  - Analiza tus contraseñas y te avisa si:
+    - Son débiles
+    - Están repetidas
+    - No se han cambiado en mucho tiempo
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Gestores de contraseñas gratuitos
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+<div class="tabla-comparativa">
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+| **Gestores**        | **Características destacadas**                                                                 |
+|---------------------|-----------------------------------------------------------------------------------------------|
+| **Bitwarden**       | Código abierto, sincronización entre dispositivos, compartir con 1 usuario. Muy seguro.        |
+| **KeePass**         | Gratuito y offline. Ideal si no quieres usar la nube. Muy personalizable.                      |
+| **NordPass (Free)** | Interfaz moderna, sincroniza con múltiples dispositivos, pero el autocompletado tiene límites. |
 
-## Start your site
+</div>
 
-Run the development server:
+## Gestores de contraseñas de paga
 
-```bash
-cd my-website
-npm run start
-```
+<div class="tabla-comparativa">
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+| **Gestores**        |**Precio Aproximado**|  **Características destacadas**                                                                 |
+|---------------------|------------------------|-----------------------------------------------------------------------|
+| **1Password**       |$2.99/mes|Interfaz excelente, compartir con enlaces temporales, modo viaje, muy completo.        |
+| **Dashlane**         | $4.99/mes|Auditoría de contraseñas, VPN incluida, cambio de contraseñas automático en algunos sitios.                      |
+| **LastPass Premium** |$3/mes |Compartir con varios usuarios, acceso de emergencia, historial de contraseñas.|
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+</div>
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
