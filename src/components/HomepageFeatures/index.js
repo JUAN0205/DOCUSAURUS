@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Almacenamiento seguro de contraseñas',
+    Svg: require('@site/static/img/img3.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Permite guardar todas tus contraseñas en un solo lugar protegido por una contraseña maestra. 
+        La información se guarda cifrada.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Compartir contraseñas de forma segura',
+    Svg: require('@site/static/img/img2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Muchos gestores de contraseñas permiten compartir credenciales 
+        con otras personas sin revelar directamente la contraseña.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Generador de contraseñas fuertes',
+    Svg: require('@site/static/img/img1.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Crea contraseñas seguras y aleatorias con un solo clic. 
+        Puedes personalizar la longitud y los caracteres para adaptarlas a los requisitos de cada sitio web.
       </>
     ),
   },

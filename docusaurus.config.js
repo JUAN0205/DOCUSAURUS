@@ -11,8 +11,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'La seguridad es primero',
+  favicon: 'img/icono.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -79,7 +79,8 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/icono.png',
+            
         },
         items: [
           {
@@ -87,12 +88,14 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+            className: 'navbar__items--center',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left',},
           {
             href: 'https://github.com/JUAN0205/DOCUSAURUS',
             label: 'GitHub',
-            position: 'right',
+            position: 'left',
+            className: 'navbar__items--center',
           },
         ],
       },

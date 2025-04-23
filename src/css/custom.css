@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #aededc;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -18,8 +18,9 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+[data-theme='dark']
+.{
+  --ifm-color-primary: #6fc5cd;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -55,4 +56,21 @@
   background-color: #2E8B57;
   color: white;
   font-weight: bold;
+}
+
+.navbar__items--center {
+  margin: auto;
+}
+/* Cambiar el fondo del navbar */
+.navbar {
+  background-color: #d3f6fa !important; /* Fondo personalizado */
+}
+/* Estilo para el modo oscuro */
+html[data-theme='dark'] .navbar {
+  background-color: #1e2a38 !important; 
+}
+
+/* Para los ítems hover (cuando el ratón pasa por encima), puedes elegir otro color si quieres */
+.navbar__link:hover {
+  color:#4479ff !important;
 }
